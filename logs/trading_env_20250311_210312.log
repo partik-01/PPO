@@ -1,0 +1,36 @@
+2025-03-11 21:03:12,468 - INFO - Initializing StockTradingEnv
+2025-03-11 21:03:12,468 - INFO - Starting data preprocessing with 1649 rows
+2025-03-11 21:03:12,475 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-11 21:03:12,475 - INFO - Converting dates and sorting data
+2025-03-11 21:03:12,480 - INFO - Initializing market regime detector
+2025-03-11 21:03:12,480 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-11 21:03:12,480 - INFO - Computing technical indicators
+2025-03-11 21:03:12,495 - INFO - Technical indicators computed in 0.015 seconds
+2025-03-11 21:03:12,495 - INFO - Fitting market regimes
+2025-03-11 21:03:12,495 - INFO - Starting HMM model fitting
+2025-03-11 21:03:12,598 - INFO - HMM fitting completed in 0.103 seconds
+2025-03-11 21:03:12,599 - INFO - Model score: -3763.054
+2025-03-11 21:03:12,599 - INFO - Regime 0: 970 samples (58.82%)
+2025-03-11 21:03:12,599 - INFO - Regime 1: 679 samples (41.18%)
+2025-03-11 21:03:12,600 - INFO - Market regimes fitted in 0.104 seconds
+2025-03-11 21:03:12,600 - INFO - Environment initialization completed in 0.132 seconds
+2025-03-11 21:03:12,600 - INFO - Data shape: (1649, 22), Date range: 2016-11-20 to 2024-04-18
+2025-03-11 21:03:13,348 - INFO - Initializing StockTradingEnv
+2025-03-11 21:03:13,348 - INFO - Starting data preprocessing with 2061 rows
+2025-03-11 21:03:13,353 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-11 21:03:13,353 - INFO - Converting dates and sorting data
+2025-03-11 21:03:13,356 - INFO - Initializing market regime detector
+2025-03-11 21:03:13,356 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-11 21:03:13,356 - INFO - Computing technical indicators
+2025-03-11 21:03:13,375 - INFO - Technical indicators computed in 0.019 seconds
+2025-03-11 21:03:13,375 - INFO - Fitting market regimes
+2025-03-11 21:03:13,375 - INFO - Starting HMM model fitting
+2025-03-11 21:03:13,462 - INFO - HMM fitting completed in 0.087 seconds
+2025-03-11 21:03:13,463 - INFO - Model score: -4616.622
+2025-03-11 21:03:13,463 - INFO - Regime 0: 757 samples (36.73%)
+2025-03-11 21:03:13,463 - INFO - Regime 1: 1304 samples (63.27%)
+2025-03-11 21:03:13,463 - INFO - Market regimes fitted in 0.088 seconds
+2025-03-11 21:03:13,463 - INFO - Environment initialization completed in 0.115 seconds
+2025-03-11 21:03:13,463 - INFO - Data shape: (2061, 22), Date range: 2014-10-14 to 2024-04-18
+2025-03-11 21:03:13,508 - INFO - Resetting environment
+2025-03-11 21:03:23,143 - INFO - Episode finished. Final portfolio value: $8109.32 (-18.91% return)

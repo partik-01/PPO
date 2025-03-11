@@ -1,0 +1,20 @@
+2025-03-09 16:02:09,271 - INFO - Initializing StockTradingEnv
+2025-03-09 16:02:09,271 - INFO - Starting data preprocessing with 2476 rows
+2025-03-09 16:02:09,273 - INFO - Dropped columns: {'S.N.'}
+2025-03-09 16:02:09,289 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-09 16:02:09,289 - INFO - Converting dates and sorting data
+2025-03-09 16:02:09,299 - INFO - Initializing market regime detector
+2025-03-09 16:02:09,299 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-09 16:02:09,300 - INFO - Computing technical indicators
+2025-03-09 16:02:09,349 - INFO - Technical indicators computed in 0.049 seconds
+2025-03-09 16:02:09,349 - INFO - Fitting market regimes
+2025-03-09 16:02:09,349 - INFO - Starting HMM model fitting
+2025-03-09 16:02:09,539 - INFO - HMM fitting completed in 0.189 seconds
+2025-03-09 16:02:09,540 - INFO - Model score: -5220.912
+2025-03-09 16:02:09,540 - INFO - Regime 0: 1178 samples (47.58%)
+2025-03-09 16:02:09,540 - INFO - Regime 1: 1298 samples (52.42%)
+2025-03-09 16:02:09,541 - INFO - Market regimes fitted in 0.192 seconds
+2025-03-09 16:02:09,542 - INFO - Environment initialization completed in 0.271 seconds
+2025-03-09 16:02:09,543 - INFO - Data shape: (2476, 21), Date range: 2011-04-06 to 2024-05-15
+2025-03-09 16:02:11,015 - INFO - Resetting environment
+2025-03-09 16:02:45,071 - INFO - Episode finished. Final portfolio value: $12424.39 (24.24% return)

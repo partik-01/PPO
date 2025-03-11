@@ -1,0 +1,19 @@
+2025-03-08 21:58:13,200 - INFO - Initializing StockTradingEnv
+2025-03-08 21:58:13,201 - INFO - Starting data preprocessing with 100 rows
+2025-03-08 21:58:13,204 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-08 21:58:13,205 - INFO - Converting dates and sorting data
+2025-03-08 21:58:13,207 - INFO - Initializing market regime detector
+2025-03-08 21:58:13,207 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-08 21:58:13,207 - INFO - Computing technical indicators
+2025-03-08 21:58:13,226 - INFO - Technical indicators computed in 0.019 seconds
+2025-03-08 21:58:13,226 - INFO - Fitting market regimes
+2025-03-08 21:58:13,226 - INFO - Starting HMM model fitting
+2025-03-08 21:58:13,402 - INFO - HMM fitting completed in 0.176 seconds
+2025-03-08 21:58:13,403 - INFO - Model score: 21.505
+2025-03-08 21:58:13,404 - INFO - Regime 0: 89 samples (89.00%)
+2025-03-08 21:58:13,404 - INFO - Regime 1: 11 samples (11.00%)
+2025-03-08 21:58:13,405 - INFO - Market regimes fitted in 0.178 seconds
+2025-03-08 21:58:13,405 - INFO - Environment initialization completed in 0.206 seconds
+2025-03-08 21:58:13,406 - INFO - Data shape: (100, 21), Date range: 2020-01-01 to 2020-04-09
+2025-03-08 21:58:13,406 - INFO - Resetting environment
+2025-03-08 21:58:15,032 - INFO - Resetting environment

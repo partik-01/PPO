@@ -1,0 +1,794 @@
+2025-03-09 15:49:51,260 - INFO - Initializing StockTradingEnv
+2025-03-09 15:49:51,260 - INFO - Starting data preprocessing with 1980 rows
+2025-03-09 15:49:51,261 - INFO - Dropped columns: {'S.N.'}
+2025-03-09 15:49:51,269 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-09 15:49:51,269 - INFO - Converting dates and sorting data
+2025-03-09 15:49:51,274 - INFO - Initializing market regime detector
+2025-03-09 15:49:51,274 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-09 15:49:51,274 - INFO - Computing technical indicators
+2025-03-09 15:49:51,301 - INFO - Technical indicators computed in 0.026 seconds
+2025-03-09 15:49:51,301 - INFO - Fitting market regimes
+2025-03-09 15:49:51,301 - INFO - Starting HMM model fitting
+2025-03-09 15:49:51,411 - INFO - HMM fitting completed in 0.110 seconds
+2025-03-09 15:49:51,411 - INFO - Model score: -4157.113
+2025-03-09 15:49:51,411 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-09 15:49:51,412 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-09 15:49:51,412 - INFO - Market regimes fitted in 0.111 seconds
+2025-03-09 15:49:51,412 - INFO - Environment initialization completed in 0.152 seconds
+2025-03-09 15:49:51,413 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-09 15:49:52,491 - INFO - Initializing StockTradingEnv
+2025-03-09 15:49:52,491 - INFO - Starting data preprocessing with 1980 rows
+2025-03-09 15:49:52,492 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-09 15:49:52,492 - INFO - Converting dates and sorting data
+2025-03-09 15:49:52,495 - INFO - Initializing market regime detector
+2025-03-09 15:49:52,495 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-09 15:49:52,495 - INFO - Computing technical indicators
+2025-03-09 15:49:52,518 - INFO - Technical indicators computed in 0.023 seconds
+2025-03-09 15:49:52,518 - INFO - Fitting market regimes
+2025-03-09 15:49:52,518 - INFO - Starting HMM model fitting
+2025-03-09 15:49:52,610 - INFO - HMM fitting completed in 0.092 seconds
+2025-03-09 15:49:52,611 - INFO - Model score: -4157.113
+2025-03-09 15:49:52,611 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-09 15:49:52,611 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-09 15:49:52,612 - INFO - Market regimes fitted in 0.094 seconds
+2025-03-09 15:49:52,612 - INFO - Environment initialization completed in 0.121 seconds
+2025-03-09 15:49:52,612 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-09 15:49:52,613 - INFO - Initializing StockTradingEnv
+2025-03-09 15:49:52,613 - INFO - Starting data preprocessing with 1980 rows
+2025-03-09 15:49:52,614 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-09 15:49:52,615 - INFO - Converting dates and sorting data
+2025-03-09 15:49:52,617 - INFO - Initializing market regime detector
+2025-03-09 15:49:52,617 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-09 15:49:52,617 - INFO - Computing technical indicators
+2025-03-09 15:49:52,654 - INFO - Technical indicators computed in 0.037 seconds
+2025-03-09 15:49:52,654 - INFO - Fitting market regimes
+2025-03-09 15:49:52,655 - INFO - Starting HMM model fitting
+2025-03-09 15:49:52,733 - INFO - HMM fitting completed in 0.078 seconds
+2025-03-09 15:49:52,734 - INFO - Model score: -4157.113
+2025-03-09 15:49:52,734 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-09 15:49:52,734 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-09 15:49:52,734 - INFO - Market regimes fitted in 0.079 seconds
+2025-03-09 15:49:52,734 - INFO - Environment initialization completed in 0.121 seconds
+2025-03-09 15:49:52,734 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-09 15:49:52,735 - INFO - Initializing StockTradingEnv
+2025-03-09 15:49:52,735 - INFO - Starting data preprocessing with 1980 rows
+2025-03-09 15:49:52,736 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-09 15:49:52,736 - INFO - Converting dates and sorting data
+2025-03-09 15:49:52,738 - INFO - Initializing market regime detector
+2025-03-09 15:49:52,738 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-09 15:49:52,738 - INFO - Computing technical indicators
+2025-03-09 15:49:52,762 - INFO - Technical indicators computed in 0.025 seconds
+2025-03-09 15:49:52,762 - INFO - Fitting market regimes
+2025-03-09 15:49:52,762 - INFO - Starting HMM model fitting
+2025-03-09 15:49:52,834 - INFO - HMM fitting completed in 0.072 seconds
+2025-03-09 15:49:52,835 - INFO - Model score: -4157.113
+2025-03-09 15:49:52,835 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-09 15:49:52,835 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-09 15:49:52,835 - INFO - Market regimes fitted in 0.073 seconds
+2025-03-09 15:49:52,835 - INFO - Environment initialization completed in 0.100 seconds
+2025-03-09 15:49:52,835 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-09 15:49:52,836 - INFO - Initializing StockTradingEnv
+2025-03-09 15:49:52,836 - INFO - Starting data preprocessing with 1980 rows
+2025-03-09 15:49:52,837 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-09 15:49:52,837 - INFO - Converting dates and sorting data
+2025-03-09 15:49:52,841 - INFO - Initializing market regime detector
+2025-03-09 15:49:52,841 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-09 15:49:52,841 - INFO - Computing technical indicators
+2025-03-09 15:49:52,870 - INFO - Technical indicators computed in 0.029 seconds
+2025-03-09 15:49:52,870 - INFO - Fitting market regimes
+2025-03-09 15:49:52,870 - INFO - Starting HMM model fitting
+2025-03-09 15:49:52,962 - INFO - HMM fitting completed in 0.092 seconds
+2025-03-09 15:49:52,963 - INFO - Model score: -4157.113
+2025-03-09 15:49:52,963 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-09 15:49:52,963 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-09 15:49:52,963 - INFO - Market regimes fitted in 0.094 seconds
+2025-03-09 15:49:52,964 - INFO - Environment initialization completed in 0.128 seconds
+2025-03-09 15:49:52,964 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-09 15:49:52,964 - INFO - Resetting environment
+2025-03-09 15:49:52,966 - INFO - Resetting environment
+2025-03-09 15:49:52,967 - INFO - Resetting environment
+2025-03-09 15:49:52,968 - INFO - Resetting environment
+2025-03-09 15:50:07,620 - INFO - Resetting environment
+2025-03-09 15:50:07,621 - INFO - Resetting environment
+2025-03-09 15:50:07,622 - INFO - Resetting environment
+2025-03-09 15:50:07,622 - INFO - Resetting environment
+2025-03-09 15:50:21,171 - INFO - Resetting environment
+2025-03-09 15:50:21,172 - INFO - Resetting environment
+2025-03-09 15:50:21,172 - INFO - Resetting environment
+2025-03-09 15:50:21,173 - INFO - Resetting environment
+2025-03-09 15:50:34,246 - INFO - Resetting environment
+2025-03-09 15:50:34,247 - INFO - Resetting environment
+2025-03-09 15:50:34,248 - INFO - Resetting environment
+2025-03-09 15:50:34,248 - INFO - Resetting environment
+2025-03-09 15:50:47,072 - INFO - Resetting environment
+2025-03-09 15:50:47,073 - INFO - Resetting environment
+2025-03-09 15:50:47,073 - INFO - Resetting environment
+2025-03-09 15:50:47,074 - INFO - Resetting environment
+2025-03-09 15:50:59,964 - INFO - Resetting environment
+2025-03-09 15:50:59,965 - INFO - Resetting environment
+2025-03-09 15:50:59,966 - INFO - Resetting environment
+2025-03-09 15:50:59,966 - INFO - Resetting environment
+2025-03-09 15:51:12,478 - INFO - Resetting environment
+2025-03-09 15:51:12,479 - INFO - Resetting environment
+2025-03-09 15:51:12,480 - INFO - Resetting environment
+2025-03-09 15:51:12,480 - INFO - Resetting environment
+2025-03-09 15:51:25,446 - INFO - Resetting environment
+2025-03-09 15:51:25,447 - INFO - Resetting environment
+2025-03-09 15:51:25,447 - INFO - Resetting environment
+2025-03-09 15:51:25,448 - INFO - Resetting environment
+2025-03-09 15:51:38,339 - INFO - Resetting environment
+2025-03-09 15:51:38,340 - INFO - Resetting environment
+2025-03-09 15:51:38,341 - INFO - Resetting environment
+2025-03-09 15:51:38,341 - INFO - Resetting environment
+2025-03-09 15:51:51,672 - INFO - Resetting environment
+2025-03-09 15:51:51,673 - INFO - Resetting environment
+2025-03-09 15:51:51,674 - INFO - Resetting environment
+2025-03-09 15:51:51,674 - INFO - Resetting environment
+2025-03-09 15:52:05,109 - INFO - Resetting environment
+2025-03-09 15:52:05,110 - INFO - Resetting environment
+2025-03-09 15:52:05,111 - INFO - Resetting environment
+2025-03-09 15:52:05,111 - INFO - Resetting environment
+2025-03-09 15:52:18,131 - INFO - Resetting environment
+2025-03-09 15:52:18,132 - INFO - Resetting environment
+2025-03-09 15:52:18,133 - INFO - Resetting environment
+2025-03-09 15:52:18,133 - INFO - Resetting environment
+2025-03-09 15:52:31,269 - INFO - Resetting environment
+2025-03-09 15:52:31,270 - INFO - Resetting environment
+2025-03-09 15:52:31,270 - INFO - Resetting environment
+2025-03-09 15:52:31,271 - INFO - Resetting environment
+2025-03-09 15:52:44,256 - INFO - Resetting environment
+2025-03-09 15:52:44,257 - INFO - Resetting environment
+2025-03-09 15:52:44,258 - INFO - Resetting environment
+2025-03-09 15:52:44,258 - INFO - Resetting environment
+2025-03-09 15:52:57,024 - INFO - Resetting environment
+2025-03-09 15:52:57,024 - INFO - Resetting environment
+2025-03-09 15:52:57,025 - INFO - Resetting environment
+2025-03-09 15:52:57,026 - INFO - Resetting environment
+2025-03-09 15:53:10,248 - INFO - Resetting environment
+2025-03-09 15:53:10,249 - INFO - Resetting environment
+2025-03-09 15:53:10,250 - INFO - Resetting environment
+2025-03-09 15:53:10,250 - INFO - Resetting environment
+2025-03-09 15:53:23,410 - INFO - Resetting environment
+2025-03-09 15:53:23,411 - INFO - Resetting environment
+2025-03-09 15:53:23,412 - INFO - Resetting environment
+2025-03-09 15:53:23,413 - INFO - Resetting environment
+2025-03-09 15:53:36,140 - INFO - Resetting environment
+2025-03-09 15:53:36,141 - INFO - Resetting environment
+2025-03-09 15:53:36,141 - INFO - Resetting environment
+2025-03-09 15:53:36,142 - INFO - Resetting environment
+2025-03-09 15:53:49,278 - INFO - Resetting environment
+2025-03-09 15:53:49,279 - INFO - Resetting environment
+2025-03-09 15:53:49,280 - INFO - Resetting environment
+2025-03-09 15:53:49,280 - INFO - Resetting environment
+2025-03-09 15:54:02,282 - INFO - Resetting environment
+2025-03-09 15:54:02,283 - INFO - Resetting environment
+2025-03-09 15:54:02,284 - INFO - Resetting environment
+2025-03-09 15:54:02,284 - INFO - Resetting environment
+2025-03-09 15:54:15,931 - INFO - Resetting environment
+2025-03-09 15:54:15,932 - INFO - Resetting environment
+2025-03-09 15:54:15,933 - INFO - Resetting environment
+2025-03-09 15:54:15,933 - INFO - Resetting environment
+2025-03-09 15:54:30,131 - INFO - Resetting environment
+2025-03-09 15:54:30,132 - INFO - Resetting environment
+2025-03-09 15:54:30,132 - INFO - Resetting environment
+2025-03-09 15:54:30,133 - INFO - Resetting environment
+2025-03-09 15:54:43,085 - INFO - Resetting environment
+2025-03-09 15:54:43,086 - INFO - Resetting environment
+2025-03-09 15:54:43,087 - INFO - Resetting environment
+2025-03-09 15:54:43,087 - INFO - Resetting environment
+2025-03-09 15:54:58,736 - INFO - Resetting environment
+2025-03-09 15:54:58,739 - INFO - Resetting environment
+2025-03-09 15:54:58,740 - INFO - Resetting environment
+2025-03-09 15:54:58,740 - INFO - Resetting environment
+2025-03-09 15:55:12,280 - INFO - Resetting environment
+2025-03-09 15:55:12,282 - INFO - Resetting environment
+2025-03-09 15:55:12,282 - INFO - Resetting environment
+2025-03-09 15:55:12,283 - INFO - Resetting environment
+2025-03-09 15:55:24,918 - INFO - Resetting environment
+2025-03-09 15:55:24,919 - INFO - Resetting environment
+2025-03-09 15:55:24,920 - INFO - Resetting environment
+2025-03-09 15:55:24,920 - INFO - Resetting environment
+2025-03-09 15:55:37,713 - INFO - Resetting environment
+2025-03-09 15:55:37,714 - INFO - Resetting environment
+2025-03-09 15:55:37,714 - INFO - Resetting environment
+2025-03-09 15:55:37,715 - INFO - Resetting environment
+2025-03-09 15:55:50,281 - INFO - Resetting environment
+2025-03-09 15:55:50,282 - INFO - Resetting environment
+2025-03-09 15:55:50,282 - INFO - Resetting environment
+2025-03-09 15:55:50,283 - INFO - Resetting environment
+2025-03-09 15:56:03,840 - INFO - Resetting environment
+2025-03-09 15:56:03,843 - INFO - Resetting environment
+2025-03-09 15:56:03,844 - INFO - Resetting environment
+2025-03-09 15:56:03,844 - INFO - Resetting environment
+2025-03-09 15:56:18,426 - INFO - Resetting environment
+2025-03-09 15:56:18,427 - INFO - Resetting environment
+2025-03-09 15:56:18,427 - INFO - Resetting environment
+2025-03-09 15:56:18,428 - INFO - Resetting environment
+2025-03-09 15:56:31,531 - INFO - Resetting environment
+2025-03-09 15:56:31,532 - INFO - Resetting environment
+2025-03-09 15:56:31,532 - INFO - Resetting environment
+2025-03-09 15:56:31,533 - INFO - Resetting environment
+2025-03-09 15:56:45,076 - INFO - Resetting environment
+2025-03-09 15:56:45,077 - INFO - Resetting environment
+2025-03-09 15:56:45,078 - INFO - Resetting environment
+2025-03-09 15:56:45,078 - INFO - Resetting environment
+2025-03-09 15:56:58,425 - INFO - Resetting environment
+2025-03-09 15:56:58,426 - INFO - Resetting environment
+2025-03-09 15:56:58,426 - INFO - Resetting environment
+2025-03-09 15:56:58,427 - INFO - Resetting environment
+2025-03-09 15:57:11,013 - INFO - Resetting environment
+2025-03-09 15:57:11,014 - INFO - Resetting environment
+2025-03-09 15:57:11,014 - INFO - Resetting environment
+2025-03-09 15:57:11,015 - INFO - Resetting environment
+2025-03-09 15:57:23,785 - INFO - Resetting environment
+2025-03-09 15:57:23,785 - INFO - Resetting environment
+2025-03-09 15:57:23,786 - INFO - Resetting environment
+2025-03-09 15:57:23,786 - INFO - Resetting environment
+2025-03-09 15:57:36,285 - INFO - Resetting environment
+2025-03-09 15:57:36,286 - INFO - Resetting environment
+2025-03-09 15:57:36,286 - INFO - Resetting environment
+2025-03-09 15:57:36,287 - INFO - Resetting environment
+2025-03-09 15:57:50,170 - INFO - Resetting environment
+2025-03-09 15:57:50,171 - INFO - Resetting environment
+2025-03-09 15:57:50,172 - INFO - Resetting environment
+2025-03-09 15:57:50,172 - INFO - Resetting environment
+2025-03-09 15:58:03,650 - INFO - Resetting environment
+2025-03-09 15:58:03,650 - INFO - Resetting environment
+2025-03-09 15:58:03,651 - INFO - Resetting environment
+2025-03-09 15:58:03,652 - INFO - Resetting environment
+2025-03-09 15:58:16,873 - INFO - Resetting environment
+2025-03-09 15:58:16,873 - INFO - Resetting environment
+2025-03-09 15:58:16,874 - INFO - Resetting environment
+2025-03-09 15:58:16,874 - INFO - Resetting environment
+2025-03-09 15:58:29,610 - INFO - Resetting environment
+2025-03-09 15:58:29,611 - INFO - Resetting environment
+2025-03-09 15:58:29,611 - INFO - Resetting environment
+2025-03-09 15:58:29,612 - INFO - Resetting environment
+2025-03-09 15:58:43,806 - INFO - Resetting environment
+2025-03-09 15:58:43,807 - INFO - Resetting environment
+2025-03-09 15:58:43,808 - INFO - Resetting environment
+2025-03-09 15:58:43,809 - INFO - Resetting environment
+2025-03-09 15:58:57,459 - INFO - Resetting environment
+2025-03-09 15:58:57,460 - INFO - Resetting environment
+2025-03-09 15:58:57,461 - INFO - Resetting environment
+2025-03-09 15:58:57,461 - INFO - Resetting environment
+2025-03-09 15:59:12,470 - INFO - Resetting environment
+2025-03-09 15:59:12,472 - INFO - Resetting environment
+2025-03-09 15:59:12,472 - INFO - Resetting environment
+2025-03-09 15:59:12,473 - INFO - Resetting environment
+2025-03-09 15:59:25,494 - INFO - Resetting environment
+2025-03-09 15:59:25,495 - INFO - Resetting environment
+2025-03-09 15:59:25,495 - INFO - Resetting environment
+2025-03-09 15:59:25,496 - INFO - Resetting environment
+2025-03-09 15:59:39,160 - INFO - Resetting environment
+2025-03-09 15:59:39,161 - INFO - Resetting environment
+2025-03-09 15:59:39,161 - INFO - Resetting environment
+2025-03-09 15:59:39,162 - INFO - Resetting environment
+2025-03-09 15:59:52,939 - INFO - Resetting environment
+2025-03-09 15:59:52,939 - INFO - Resetting environment
+2025-03-09 15:59:52,940 - INFO - Resetting environment
+2025-03-09 15:59:52,941 - INFO - Resetting environment
+2025-03-09 16:00:06,169 - INFO - Resetting environment
+2025-03-09 16:00:06,170 - INFO - Resetting environment
+2025-03-09 16:00:06,171 - INFO - Resetting environment
+2025-03-09 16:00:06,171 - INFO - Resetting environment
+2025-03-09 16:00:19,835 - INFO - Resetting environment
+2025-03-09 16:00:19,836 - INFO - Resetting environment
+2025-03-09 16:00:19,837 - INFO - Resetting environment
+2025-03-09 16:00:19,838 - INFO - Resetting environment
+2025-03-09 16:00:33,462 - INFO - Resetting environment
+2025-03-09 16:00:33,463 - INFO - Resetting environment
+2025-03-09 16:00:33,464 - INFO - Resetting environment
+2025-03-09 16:00:33,465 - INFO - Resetting environment
+2025-03-09 16:00:46,714 - INFO - Resetting environment
+2025-03-09 16:00:46,716 - INFO - Resetting environment
+2025-03-09 16:00:46,716 - INFO - Resetting environment
+2025-03-09 16:00:46,718 - INFO - Resetting environment
+2025-03-09 16:01:00,519 - INFO - Resetting environment
+2025-03-09 16:01:00,520 - INFO - Resetting environment
+2025-03-09 16:01:00,521 - INFO - Resetting environment
+2025-03-09 16:01:00,521 - INFO - Resetting environment
+2025-03-09 16:01:13,579 - INFO - Resetting environment
+2025-03-09 16:01:13,579 - INFO - Resetting environment
+2025-03-09 16:01:13,580 - INFO - Resetting environment
+2025-03-09 16:01:13,580 - INFO - Resetting environment
+2025-03-09 16:01:27,494 - INFO - Resetting environment
+2025-03-09 16:01:27,495 - INFO - Resetting environment
+2025-03-09 16:01:27,496 - INFO - Resetting environment
+2025-03-09 16:01:27,496 - INFO - Resetting environment
+2025-03-09 16:01:40,531 - INFO - Resetting environment
+2025-03-09 16:01:40,532 - INFO - Resetting environment
+2025-03-09 16:01:40,532 - INFO - Resetting environment
+2025-03-09 16:01:40,533 - INFO - Resetting environment
+2025-03-09 16:01:56,457 - INFO - Resetting environment
+2025-03-09 16:01:56,458 - INFO - Resetting environment
+2025-03-09 16:01:56,459 - INFO - Resetting environment
+2025-03-09 16:01:56,460 - INFO - Resetting environment
+2025-03-09 16:02:14,630 - INFO - Resetting environment
+2025-03-09 16:02:14,631 - INFO - Resetting environment
+2025-03-09 16:02:14,632 - INFO - Resetting environment
+2025-03-09 16:02:14,633 - INFO - Resetting environment
+2025-03-09 16:02:36,002 - INFO - Resetting environment
+2025-03-09 16:02:36,003 - INFO - Resetting environment
+2025-03-09 16:02:36,004 - INFO - Resetting environment
+2025-03-09 16:02:36,005 - INFO - Resetting environment
+2025-03-09 16:02:51,828 - INFO - Resetting environment
+2025-03-09 16:02:51,829 - INFO - Resetting environment
+2025-03-09 16:02:51,830 - INFO - Resetting environment
+2025-03-09 16:02:51,831 - INFO - Resetting environment
+2025-03-09 16:03:05,790 - INFO - Resetting environment
+2025-03-09 16:03:05,790 - INFO - Resetting environment
+2025-03-09 16:03:05,791 - INFO - Resetting environment
+2025-03-09 16:03:05,792 - INFO - Resetting environment
+2025-03-09 16:03:19,716 - INFO - Resetting environment
+2025-03-09 16:03:19,717 - INFO - Resetting environment
+2025-03-09 16:03:19,717 - INFO - Resetting environment
+2025-03-09 16:03:19,718 - INFO - Resetting environment
+2025-03-09 16:03:33,775 - INFO - Resetting environment
+2025-03-09 16:03:33,776 - INFO - Resetting environment
+2025-03-09 16:03:33,777 - INFO - Resetting environment
+2025-03-09 16:03:33,777 - INFO - Resetting environment
+2025-03-09 16:03:48,157 - INFO - Resetting environment
+2025-03-09 16:03:48,158 - INFO - Resetting environment
+2025-03-09 16:03:48,159 - INFO - Resetting environment
+2025-03-09 16:03:48,160 - INFO - Resetting environment
+2025-03-09 16:04:00,850 - INFO - Resetting environment
+2025-03-09 16:04:00,851 - INFO - Resetting environment
+2025-03-09 16:04:00,852 - INFO - Resetting environment
+2025-03-09 16:04:00,852 - INFO - Resetting environment
+2025-03-09 16:04:14,214 - INFO - Resetting environment
+2025-03-09 16:04:14,215 - INFO - Resetting environment
+2025-03-09 16:04:14,216 - INFO - Resetting environment
+2025-03-09 16:04:14,216 - INFO - Resetting environment
+2025-03-09 16:04:27,023 - INFO - Resetting environment
+2025-03-09 16:04:27,024 - INFO - Resetting environment
+2025-03-09 16:04:27,025 - INFO - Resetting environment
+2025-03-09 16:04:27,025 - INFO - Resetting environment
+2025-03-09 16:04:39,681 - INFO - Resetting environment
+2025-03-09 16:04:39,682 - INFO - Resetting environment
+2025-03-09 16:04:39,682 - INFO - Resetting environment
+2025-03-09 16:04:39,683 - INFO - Resetting environment
+2025-03-09 16:04:52,841 - INFO - Resetting environment
+2025-03-09 16:04:52,842 - INFO - Resetting environment
+2025-03-09 16:04:52,843 - INFO - Resetting environment
+2025-03-09 16:04:52,843 - INFO - Resetting environment
+2025-03-09 16:05:05,715 - INFO - Resetting environment
+2025-03-09 16:05:05,716 - INFO - Resetting environment
+2025-03-09 16:05:05,717 - INFO - Resetting environment
+2025-03-09 16:05:05,717 - INFO - Resetting environment
+2025-03-09 16:15:02,388 - INFO - Resetting environment
+2025-03-09 16:15:02,390 - INFO - Resetting environment
+2025-03-09 16:15:02,391 - INFO - Resetting environment
+2025-03-09 16:15:02,392 - INFO - Resetting environment
+2025-03-09 16:15:17,222 - INFO - Resetting environment
+2025-03-09 16:15:17,223 - INFO - Resetting environment
+2025-03-09 16:15:17,224 - INFO - Resetting environment
+2025-03-09 16:15:17,224 - INFO - Resetting environment
+2025-03-09 16:15:30,397 - INFO - Resetting environment
+2025-03-09 16:15:30,398 - INFO - Resetting environment
+2025-03-09 16:15:30,399 - INFO - Resetting environment
+2025-03-09 16:15:30,399 - INFO - Resetting environment
+2025-03-09 16:15:44,958 - INFO - Resetting environment
+2025-03-09 16:15:44,959 - INFO - Resetting environment
+2025-03-09 16:15:44,960 - INFO - Resetting environment
+2025-03-09 16:15:44,960 - INFO - Resetting environment
+2025-03-09 16:15:58,307 - INFO - Resetting environment
+2025-03-09 16:15:58,308 - INFO - Resetting environment
+2025-03-09 16:15:58,309 - INFO - Resetting environment
+2025-03-09 16:15:58,309 - INFO - Resetting environment
+2025-03-09 16:16:11,456 - INFO - Resetting environment
+2025-03-09 16:16:11,457 - INFO - Resetting environment
+2025-03-09 16:16:11,458 - INFO - Resetting environment
+2025-03-09 16:16:11,458 - INFO - Resetting environment
+2025-03-09 16:16:25,031 - INFO - Resetting environment
+2025-03-09 16:16:25,032 - INFO - Resetting environment
+2025-03-09 16:16:25,032 - INFO - Resetting environment
+2025-03-09 16:16:25,033 - INFO - Resetting environment
+2025-03-09 16:16:38,954 - INFO - Resetting environment
+2025-03-09 16:16:38,955 - INFO - Resetting environment
+2025-03-09 16:16:38,956 - INFO - Resetting environment
+2025-03-09 16:16:38,956 - INFO - Resetting environment
+2025-03-09 16:16:53,782 - INFO - Resetting environment
+2025-03-09 16:16:53,783 - INFO - Resetting environment
+2025-03-09 16:16:53,784 - INFO - Resetting environment
+2025-03-09 16:16:53,784 - INFO - Resetting environment
+2025-03-09 16:17:09,346 - INFO - Resetting environment
+2025-03-09 16:17:09,347 - INFO - Resetting environment
+2025-03-09 16:17:09,348 - INFO - Resetting environment
+2025-03-09 16:17:09,349 - INFO - Resetting environment
+2025-03-09 16:17:23,913 - INFO - Resetting environment
+2025-03-09 16:17:23,914 - INFO - Resetting environment
+2025-03-09 16:17:23,915 - INFO - Resetting environment
+2025-03-09 16:17:23,916 - INFO - Resetting environment
+2025-03-09 16:17:39,772 - INFO - Resetting environment
+2025-03-09 16:17:39,773 - INFO - Resetting environment
+2025-03-09 16:17:39,773 - INFO - Resetting environment
+2025-03-09 16:17:39,774 - INFO - Resetting environment
+2025-03-09 16:17:54,463 - INFO - Resetting environment
+2025-03-09 16:17:54,464 - INFO - Resetting environment
+2025-03-09 16:17:54,464 - INFO - Resetting environment
+2025-03-09 16:17:54,465 - INFO - Resetting environment
+2025-03-09 16:18:08,666 - INFO - Resetting environment
+2025-03-09 16:18:08,667 - INFO - Resetting environment
+2025-03-09 16:18:08,668 - INFO - Resetting environment
+2025-03-09 16:18:08,668 - INFO - Resetting environment
+2025-03-09 16:18:23,133 - INFO - Resetting environment
+2025-03-09 16:18:23,135 - INFO - Resetting environment
+2025-03-09 16:18:23,135 - INFO - Resetting environment
+2025-03-09 16:18:23,136 - INFO - Resetting environment
+2025-03-09 16:18:36,597 - INFO - Resetting environment
+2025-03-09 16:18:36,598 - INFO - Resetting environment
+2025-03-09 16:18:36,599 - INFO - Resetting environment
+2025-03-09 16:18:36,599 - INFO - Resetting environment
+2025-03-09 16:18:50,535 - INFO - Resetting environment
+2025-03-09 16:18:50,536 - INFO - Resetting environment
+2025-03-09 16:18:50,537 - INFO - Resetting environment
+2025-03-09 16:18:50,537 - INFO - Resetting environment
+2025-03-09 16:19:04,106 - INFO - Resetting environment
+2025-03-09 16:19:04,107 - INFO - Resetting environment
+2025-03-09 16:19:04,107 - INFO - Resetting environment
+2025-03-09 16:19:04,108 - INFO - Resetting environment
+2025-03-09 16:19:17,376 - INFO - Resetting environment
+2025-03-09 16:19:17,377 - INFO - Resetting environment
+2025-03-09 16:19:17,377 - INFO - Resetting environment
+2025-03-09 16:19:17,378 - INFO - Resetting environment
+2025-03-09 16:19:31,200 - INFO - Resetting environment
+2025-03-09 16:19:31,202 - INFO - Resetting environment
+2025-03-09 16:19:31,202 - INFO - Resetting environment
+2025-03-09 16:19:31,203 - INFO - Resetting environment
+2025-03-09 16:19:45,446 - INFO - Resetting environment
+2025-03-09 16:19:45,448 - INFO - Resetting environment
+2025-03-09 16:19:45,449 - INFO - Resetting environment
+2025-03-09 16:19:45,450 - INFO - Resetting environment
+2025-03-09 16:20:00,828 - INFO - Resetting environment
+2025-03-09 16:20:00,829 - INFO - Resetting environment
+2025-03-09 16:20:00,829 - INFO - Resetting environment
+2025-03-09 16:20:00,830 - INFO - Resetting environment
+2025-03-09 16:20:14,648 - INFO - Resetting environment
+2025-03-09 16:20:14,649 - INFO - Resetting environment
+2025-03-09 16:20:14,650 - INFO - Resetting environment
+2025-03-09 16:20:14,651 - INFO - Resetting environment
+2025-03-09 16:20:29,071 - INFO - Resetting environment
+2025-03-09 16:20:29,072 - INFO - Resetting environment
+2025-03-09 16:20:29,073 - INFO - Resetting environment
+2025-03-09 16:20:29,073 - INFO - Resetting environment
+2025-03-09 16:20:42,209 - INFO - Resetting environment
+2025-03-09 16:20:42,210 - INFO - Resetting environment
+2025-03-09 16:20:42,211 - INFO - Resetting environment
+2025-03-09 16:20:42,211 - INFO - Resetting environment
+2025-03-09 16:20:55,456 - INFO - Resetting environment
+2025-03-09 16:20:55,457 - INFO - Resetting environment
+2025-03-09 16:20:55,458 - INFO - Resetting environment
+2025-03-09 16:20:55,459 - INFO - Resetting environment
+2025-03-09 16:21:08,299 - INFO - Resetting environment
+2025-03-09 16:21:08,300 - INFO - Resetting environment
+2025-03-09 16:21:08,301 - INFO - Resetting environment
+2025-03-09 16:21:08,301 - INFO - Resetting environment
+2025-03-09 16:21:21,505 - INFO - Resetting environment
+2025-03-09 16:21:21,506 - INFO - Resetting environment
+2025-03-09 16:21:21,506 - INFO - Resetting environment
+2025-03-09 16:21:21,507 - INFO - Resetting environment
+2025-03-09 16:21:34,628 - INFO - Resetting environment
+2025-03-09 16:21:34,629 - INFO - Resetting environment
+2025-03-09 16:21:34,630 - INFO - Resetting environment
+2025-03-09 16:21:34,630 - INFO - Resetting environment
+2025-03-09 16:21:47,327 - INFO - Resetting environment
+2025-03-09 16:21:47,328 - INFO - Resetting environment
+2025-03-09 16:21:47,329 - INFO - Resetting environment
+2025-03-09 16:21:47,329 - INFO - Resetting environment
+2025-03-09 16:22:00,631 - INFO - Resetting environment
+2025-03-09 16:22:00,632 - INFO - Resetting environment
+2025-03-09 16:22:00,632 - INFO - Resetting environment
+2025-03-09 16:22:00,633 - INFO - Resetting environment
+2025-03-09 16:22:13,511 - INFO - Resetting environment
+2025-03-09 16:22:13,512 - INFO - Resetting environment
+2025-03-09 16:22:13,512 - INFO - Resetting environment
+2025-03-09 16:22:13,513 - INFO - Resetting environment
+2025-03-09 16:22:26,770 - INFO - Resetting environment
+2025-03-09 16:22:26,771 - INFO - Resetting environment
+2025-03-09 16:22:26,771 - INFO - Resetting environment
+2025-03-09 16:22:26,772 - INFO - Resetting environment
+2025-03-09 16:22:39,814 - INFO - Resetting environment
+2025-03-09 16:22:39,814 - INFO - Resetting environment
+2025-03-09 16:22:39,815 - INFO - Resetting environment
+2025-03-09 16:22:39,816 - INFO - Resetting environment
+2025-03-09 16:22:52,637 - INFO - Resetting environment
+2025-03-09 16:22:52,638 - INFO - Resetting environment
+2025-03-09 16:22:52,638 - INFO - Resetting environment
+2025-03-09 16:22:52,639 - INFO - Resetting environment
+2025-03-09 16:23:06,359 - INFO - Resetting environment
+2025-03-09 16:23:06,360 - INFO - Resetting environment
+2025-03-09 16:23:06,360 - INFO - Resetting environment
+2025-03-09 16:23:06,361 - INFO - Resetting environment
+2025-03-09 16:23:19,634 - INFO - Resetting environment
+2025-03-09 16:23:19,635 - INFO - Resetting environment
+2025-03-09 16:23:19,636 - INFO - Resetting environment
+2025-03-09 16:23:19,637 - INFO - Resetting environment
+2025-03-09 16:23:32,504 - INFO - Resetting environment
+2025-03-09 16:23:32,505 - INFO - Resetting environment
+2025-03-09 16:23:32,505 - INFO - Resetting environment
+2025-03-09 16:23:32,506 - INFO - Resetting environment
+2025-03-09 16:23:46,535 - INFO - Resetting environment
+2025-03-09 16:23:46,536 - INFO - Resetting environment
+2025-03-09 16:23:46,536 - INFO - Resetting environment
+2025-03-09 16:23:46,537 - INFO - Resetting environment
+2025-03-09 16:23:59,328 - INFO - Resetting environment
+2025-03-09 16:23:59,329 - INFO - Resetting environment
+2025-03-09 16:23:59,330 - INFO - Resetting environment
+2025-03-09 16:23:59,330 - INFO - Resetting environment
+2025-03-09 16:24:12,438 - INFO - Resetting environment
+2025-03-09 16:24:12,439 - INFO - Resetting environment
+2025-03-09 16:24:12,440 - INFO - Resetting environment
+2025-03-09 16:24:12,440 - INFO - Resetting environment
+2025-03-09 16:24:26,046 - INFO - Resetting environment
+2025-03-09 16:24:26,047 - INFO - Resetting environment
+2025-03-09 16:24:26,048 - INFO - Resetting environment
+2025-03-09 16:24:26,048 - INFO - Resetting environment
+2025-03-09 16:24:38,947 - INFO - Resetting environment
+2025-03-09 16:24:38,947 - INFO - Resetting environment
+2025-03-09 16:24:38,948 - INFO - Resetting environment
+2025-03-09 16:24:38,949 - INFO - Resetting environment
+2025-03-09 16:24:51,995 - INFO - Resetting environment
+2025-03-09 16:24:51,996 - INFO - Resetting environment
+2025-03-09 16:24:51,997 - INFO - Resetting environment
+2025-03-09 16:24:51,997 - INFO - Resetting environment
+2025-03-09 16:25:05,538 - INFO - Resetting environment
+2025-03-09 16:25:05,539 - INFO - Resetting environment
+2025-03-09 16:25:05,539 - INFO - Resetting environment
+2025-03-09 16:25:05,540 - INFO - Resetting environment
+2025-03-09 16:25:18,537 - INFO - Resetting environment
+2025-03-09 16:25:18,538 - INFO - Resetting environment
+2025-03-09 16:25:18,538 - INFO - Resetting environment
+2025-03-09 16:25:18,539 - INFO - Resetting environment
+2025-03-09 16:25:33,430 - INFO - Resetting environment
+2025-03-09 16:25:33,432 - INFO - Resetting environment
+2025-03-09 16:25:33,432 - INFO - Resetting environment
+2025-03-09 16:25:33,433 - INFO - Resetting environment
+2025-03-09 16:25:46,330 - INFO - Resetting environment
+2025-03-09 16:25:46,331 - INFO - Resetting environment
+2025-03-09 16:25:46,331 - INFO - Resetting environment
+2025-03-09 16:25:46,332 - INFO - Resetting environment
+2025-03-09 16:25:59,406 - INFO - Resetting environment
+2025-03-09 16:25:59,407 - INFO - Resetting environment
+2025-03-09 16:25:59,407 - INFO - Resetting environment
+2025-03-09 16:25:59,408 - INFO - Resetting environment
+2025-03-09 16:26:13,084 - INFO - Resetting environment
+2025-03-09 16:26:13,086 - INFO - Resetting environment
+2025-03-09 16:26:13,087 - INFO - Resetting environment
+2025-03-09 16:26:13,088 - INFO - Resetting environment
+2025-03-09 16:26:25,934 - INFO - Resetting environment
+2025-03-09 16:26:25,935 - INFO - Resetting environment
+2025-03-09 16:26:25,936 - INFO - Resetting environment
+2025-03-09 16:26:25,936 - INFO - Resetting environment
+2025-03-09 16:26:39,677 - INFO - Resetting environment
+2025-03-09 16:26:39,678 - INFO - Resetting environment
+2025-03-09 16:26:39,679 - INFO - Resetting environment
+2025-03-09 16:26:39,679 - INFO - Resetting environment
+2025-03-09 16:26:53,186 - INFO - Resetting environment
+2025-03-09 16:26:53,189 - INFO - Resetting environment
+2025-03-09 16:26:53,189 - INFO - Resetting environment
+2025-03-09 16:26:53,190 - INFO - Resetting environment
+2025-03-09 16:27:06,062 - INFO - Resetting environment
+2025-03-09 16:27:06,063 - INFO - Resetting environment
+2025-03-09 16:27:06,064 - INFO - Resetting environment
+2025-03-09 16:27:06,064 - INFO - Resetting environment
+2025-03-09 16:27:19,090 - INFO - Resetting environment
+2025-03-09 16:27:19,092 - INFO - Resetting environment
+2025-03-09 16:27:19,093 - INFO - Resetting environment
+2025-03-09 16:27:19,093 - INFO - Resetting environment
+2025-03-09 16:27:31,849 - INFO - Resetting environment
+2025-03-09 16:27:31,851 - INFO - Resetting environment
+2025-03-09 16:27:31,851 - INFO - Resetting environment
+2025-03-09 16:27:31,852 - INFO - Resetting environment
+2025-03-09 16:27:49,882 - INFO - Resetting environment
+2025-03-09 16:27:49,883 - INFO - Resetting environment
+2025-03-09 16:27:49,884 - INFO - Resetting environment
+2025-03-09 16:27:49,884 - INFO - Resetting environment
+2025-03-09 16:28:04,554 - INFO - Resetting environment
+2025-03-09 16:28:04,555 - INFO - Resetting environment
+2025-03-09 16:28:04,556 - INFO - Resetting environment
+2025-03-09 16:28:04,556 - INFO - Resetting environment
+2025-03-09 16:28:18,102 - INFO - Resetting environment
+2025-03-09 16:28:18,103 - INFO - Resetting environment
+2025-03-09 16:28:18,103 - INFO - Resetting environment
+2025-03-09 16:28:18,104 - INFO - Resetting environment
+2025-03-09 16:28:31,642 - INFO - Resetting environment
+2025-03-09 16:28:31,643 - INFO - Resetting environment
+2025-03-09 16:28:31,644 - INFO - Resetting environment
+2025-03-09 16:28:31,644 - INFO - Resetting environment
+2025-03-09 16:28:45,059 - INFO - Resetting environment
+2025-03-09 16:28:45,060 - INFO - Resetting environment
+2025-03-09 16:28:45,061 - INFO - Resetting environment
+2025-03-09 16:28:45,062 - INFO - Resetting environment
+2025-03-09 16:28:57,878 - INFO - Resetting environment
+2025-03-09 16:28:57,879 - INFO - Resetting environment
+2025-03-09 16:28:57,879 - INFO - Resetting environment
+2025-03-09 16:28:57,880 - INFO - Resetting environment
+2025-03-09 16:29:11,928 - INFO - Resetting environment
+2025-03-09 16:29:11,930 - INFO - Resetting environment
+2025-03-09 16:29:11,931 - INFO - Resetting environment
+2025-03-09 16:29:11,931 - INFO - Resetting environment
+2025-03-09 16:29:24,415 - INFO - Resetting environment
+2025-03-09 16:29:24,416 - INFO - Resetting environment
+2025-03-09 16:29:24,416 - INFO - Resetting environment
+2025-03-09 16:29:24,417 - INFO - Resetting environment
+2025-03-09 16:29:37,265 - INFO - Resetting environment
+2025-03-09 16:29:37,266 - INFO - Resetting environment
+2025-03-09 16:29:37,266 - INFO - Resetting environment
+2025-03-09 16:29:37,267 - INFO - Resetting environment
+2025-03-09 16:29:49,961 - INFO - Resetting environment
+2025-03-09 16:29:49,963 - INFO - Resetting environment
+2025-03-09 16:29:49,963 - INFO - Resetting environment
+2025-03-09 16:29:49,964 - INFO - Resetting environment
+2025-03-09 16:30:02,405 - INFO - Resetting environment
+2025-03-09 16:30:02,406 - INFO - Resetting environment
+2025-03-09 16:30:02,406 - INFO - Resetting environment
+2025-03-09 16:30:02,407 - INFO - Resetting environment
+2025-03-09 16:30:16,709 - INFO - Resetting environment
+2025-03-09 16:30:16,710 - INFO - Resetting environment
+2025-03-09 16:30:16,710 - INFO - Resetting environment
+2025-03-09 16:30:16,711 - INFO - Resetting environment
+2025-03-09 16:30:29,776 - INFO - Resetting environment
+2025-03-09 16:30:29,777 - INFO - Resetting environment
+2025-03-09 16:30:29,778 - INFO - Resetting environment
+2025-03-09 16:30:29,779 - INFO - Resetting environment
+2025-03-09 16:30:42,620 - INFO - Resetting environment
+2025-03-09 16:30:42,621 - INFO - Resetting environment
+2025-03-09 16:30:42,622 - INFO - Resetting environment
+2025-03-09 16:30:42,622 - INFO - Resetting environment
+2025-03-09 16:30:55,646 - INFO - Resetting environment
+2025-03-09 16:30:55,647 - INFO - Resetting environment
+2025-03-09 16:30:55,647 - INFO - Resetting environment
+2025-03-09 16:30:55,648 - INFO - Resetting environment
+2025-03-09 16:31:08,431 - INFO - Resetting environment
+2025-03-09 16:31:08,432 - INFO - Resetting environment
+2025-03-09 16:31:08,432 - INFO - Resetting environment
+2025-03-09 16:31:08,433 - INFO - Resetting environment
+2025-03-09 16:31:22,745 - INFO - Resetting environment
+2025-03-09 16:31:22,746 - INFO - Resetting environment
+2025-03-09 16:31:22,746 - INFO - Resetting environment
+2025-03-09 16:31:22,747 - INFO - Resetting environment
+2025-03-09 16:31:36,066 - INFO - Resetting environment
+2025-03-09 16:31:36,067 - INFO - Resetting environment
+2025-03-09 16:31:36,067 - INFO - Resetting environment
+2025-03-09 16:31:36,068 - INFO - Resetting environment
+2025-03-09 16:31:50,021 - INFO - Resetting environment
+2025-03-09 16:31:50,022 - INFO - Resetting environment
+2025-03-09 16:31:50,023 - INFO - Resetting environment
+2025-03-09 16:31:50,024 - INFO - Resetting environment
+2025-03-09 16:32:04,160 - INFO - Resetting environment
+2025-03-09 16:32:04,161 - INFO - Resetting environment
+2025-03-09 16:32:04,162 - INFO - Resetting environment
+2025-03-09 16:32:04,163 - INFO - Resetting environment
+2025-03-09 16:32:17,378 - INFO - Resetting environment
+2025-03-09 16:32:17,379 - INFO - Resetting environment
+2025-03-09 16:32:17,379 - INFO - Resetting environment
+2025-03-09 16:32:17,380 - INFO - Resetting environment
+2025-03-09 16:32:29,859 - INFO - Resetting environment
+2025-03-09 16:32:29,860 - INFO - Resetting environment
+2025-03-09 16:32:29,860 - INFO - Resetting environment
+2025-03-09 16:32:29,861 - INFO - Resetting environment
+2025-03-09 16:32:42,614 - INFO - Resetting environment
+2025-03-09 16:32:42,616 - INFO - Resetting environment
+2025-03-09 16:32:42,617 - INFO - Resetting environment
+2025-03-09 16:32:42,617 - INFO - Resetting environment
+2025-03-09 16:32:57,268 - INFO - Resetting environment
+2025-03-09 16:32:57,269 - INFO - Resetting environment
+2025-03-09 16:32:57,270 - INFO - Resetting environment
+2025-03-09 16:32:57,271 - INFO - Resetting environment
+2025-03-09 16:33:10,518 - INFO - Resetting environment
+2025-03-09 16:33:10,519 - INFO - Resetting environment
+2025-03-09 16:33:10,519 - INFO - Resetting environment
+2025-03-09 16:33:10,520 - INFO - Resetting environment
+2025-03-09 16:33:24,810 - INFO - Resetting environment
+2025-03-09 16:33:24,813 - INFO - Resetting environment
+2025-03-09 16:33:24,813 - INFO - Resetting environment
+2025-03-09 16:33:24,814 - INFO - Resetting environment
+2025-03-09 16:33:37,729 - INFO - Resetting environment
+2025-03-09 16:33:37,730 - INFO - Resetting environment
+2025-03-09 16:33:37,731 - INFO - Resetting environment
+2025-03-09 16:33:37,731 - INFO - Resetting environment
+2025-03-09 16:33:50,811 - INFO - Resetting environment
+2025-03-09 16:33:50,811 - INFO - Resetting environment
+2025-03-09 16:33:50,812 - INFO - Resetting environment
+2025-03-09 16:33:50,813 - INFO - Resetting environment
+2025-03-09 16:34:03,909 - INFO - Resetting environment
+2025-03-09 16:34:03,910 - INFO - Resetting environment
+2025-03-09 16:34:03,910 - INFO - Resetting environment
+2025-03-09 16:34:03,911 - INFO - Resetting environment
+2025-03-09 16:34:16,751 - INFO - Resetting environment
+2025-03-09 16:34:16,752 - INFO - Resetting environment
+2025-03-09 16:34:16,752 - INFO - Resetting environment
+2025-03-09 16:34:16,753 - INFO - Resetting environment
+2025-03-09 16:34:30,341 - INFO - Resetting environment
+2025-03-09 16:34:30,341 - INFO - Resetting environment
+2025-03-09 16:34:30,342 - INFO - Resetting environment
+2025-03-09 16:34:30,342 - INFO - Resetting environment
+2025-03-09 16:34:43,083 - INFO - Resetting environment
+2025-03-09 16:34:43,086 - INFO - Resetting environment
+2025-03-09 16:34:43,086 - INFO - Resetting environment
+2025-03-09 16:34:43,087 - INFO - Resetting environment
+2025-03-09 16:34:55,846 - INFO - Resetting environment
+2025-03-09 16:34:55,846 - INFO - Resetting environment
+2025-03-09 16:34:55,847 - INFO - Resetting environment
+2025-03-09 16:34:55,848 - INFO - Resetting environment
+2025-03-09 16:35:09,568 - INFO - Resetting environment
+2025-03-09 16:35:09,569 - INFO - Resetting environment
+2025-03-09 16:35:09,569 - INFO - Resetting environment
+2025-03-09 16:35:09,570 - INFO - Resetting environment
+2025-03-09 16:35:23,244 - INFO - Resetting environment
+2025-03-09 16:35:23,245 - INFO - Resetting environment
+2025-03-09 16:35:23,245 - INFO - Resetting environment
+2025-03-09 16:35:23,246 - INFO - Resetting environment
+2025-03-09 16:35:37,059 - INFO - Resetting environment
+2025-03-09 16:35:37,060 - INFO - Resetting environment
+2025-03-09 16:35:37,060 - INFO - Resetting environment
+2025-03-09 16:35:37,061 - INFO - Resetting environment
+2025-03-09 16:35:50,923 - INFO - Resetting environment
+2025-03-09 16:35:50,924 - INFO - Resetting environment
+2025-03-09 16:35:50,925 - INFO - Resetting environment
+2025-03-09 16:35:50,926 - INFO - Resetting environment
+2025-03-09 16:36:04,913 - INFO - Resetting environment
+2025-03-09 16:36:04,914 - INFO - Resetting environment
+2025-03-09 16:36:04,914 - INFO - Resetting environment
+2025-03-09 16:36:04,915 - INFO - Resetting environment
+2025-03-09 16:36:18,025 - INFO - Resetting environment
+2025-03-09 16:36:18,026 - INFO - Resetting environment
+2025-03-09 16:36:18,026 - INFO - Resetting environment
+2025-03-09 16:36:18,027 - INFO - Resetting environment
+2025-03-09 16:36:30,841 - INFO - Resetting environment
+2025-03-09 16:36:30,842 - INFO - Resetting environment
+2025-03-09 16:36:30,843 - INFO - Resetting environment
+2025-03-09 16:36:30,843 - INFO - Resetting environment
+2025-03-09 16:36:44,450 - INFO - Resetting environment
+2025-03-09 16:36:44,451 - INFO - Resetting environment
+2025-03-09 16:36:44,451 - INFO - Resetting environment
+2025-03-09 16:36:44,452 - INFO - Resetting environment
+2025-03-09 16:36:57,948 - INFO - Resetting environment
+2025-03-09 16:36:57,949 - INFO - Resetting environment
+2025-03-09 16:36:57,950 - INFO - Resetting environment
+2025-03-09 16:36:57,950 - INFO - Resetting environment
+2025-03-09 16:37:11,363 - INFO - Resetting environment
+2025-03-09 16:37:11,365 - INFO - Resetting environment
+2025-03-09 16:37:11,365 - INFO - Resetting environment
+2025-03-09 16:37:11,366 - INFO - Resetting environment
+2025-03-09 16:37:25,652 - INFO - Resetting environment
+2025-03-09 16:37:25,653 - INFO - Resetting environment
+2025-03-09 16:37:25,653 - INFO - Resetting environment
+2025-03-09 16:37:25,654 - INFO - Resetting environment
+2025-03-09 16:37:38,882 - INFO - Resetting environment
+2025-03-09 16:37:38,883 - INFO - Resetting environment
+2025-03-09 16:37:38,884 - INFO - Resetting environment
+2025-03-09 16:37:38,884 - INFO - Resetting environment
+2025-03-09 16:37:52,370 - INFO - Resetting environment
+2025-03-09 16:37:52,371 - INFO - Resetting environment
+2025-03-09 16:37:52,372 - INFO - Resetting environment
+2025-03-09 16:37:52,373 - INFO - Resetting environment
+2025-03-09 16:38:06,417 - INFO - Resetting environment
+2025-03-09 16:38:06,417 - INFO - Resetting environment
+2025-03-09 16:38:06,418 - INFO - Resetting environment
+2025-03-09 16:38:06,419 - INFO - Resetting environment
+2025-03-09 16:38:20,131 - INFO - Resetting environment
+2025-03-09 16:38:20,132 - INFO - Resetting environment
+2025-03-09 16:38:20,133 - INFO - Resetting environment
+2025-03-09 16:38:20,134 - INFO - Resetting environment
+2025-03-09 16:38:34,176 - INFO - Resetting environment
+2025-03-09 16:38:34,179 - INFO - Resetting environment
+2025-03-09 16:38:34,179 - INFO - Resetting environment
+2025-03-09 16:38:34,180 - INFO - Resetting environment
+2025-03-09 16:38:49,894 - INFO - Resetting environment
+2025-03-09 16:38:49,895 - INFO - Resetting environment
+2025-03-09 16:38:49,896 - INFO - Resetting environment
+2025-03-09 16:38:49,896 - INFO - Resetting environment
+2025-03-09 16:39:05,588 - INFO - Resetting environment
+2025-03-09 16:39:05,589 - INFO - Resetting environment
+2025-03-09 16:39:05,590 - INFO - Resetting environment
+2025-03-09 16:39:05,590 - INFO - Resetting environment
+2025-03-09 16:39:20,718 - INFO - Resetting environment
+2025-03-09 16:39:20,719 - INFO - Resetting environment
+2025-03-09 16:39:20,720 - INFO - Resetting environment
+2025-03-09 16:39:20,720 - INFO - Resetting environment
+2025-03-09 16:39:35,735 - INFO - Resetting environment
+2025-03-09 16:39:35,737 - INFO - Resetting environment
+2025-03-09 16:39:35,737 - INFO - Resetting environment
+2025-03-09 16:39:35,738 - INFO - Resetting environment

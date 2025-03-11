@@ -1,0 +1,59 @@
+2025-02-12 20:01:29,663 - INFO - Initializing StockTradingEnv
+2025-02-12 20:01:29,664 - INFO - Starting data preprocessing with 1648 rows
+2025-02-12 20:01:29,675 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-02-12 20:01:29,676 - INFO - Converting dates and sorting data
+2025-02-12 20:01:29,683 - INFO - Initializing market regime detector
+2025-02-12 20:01:29,683 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-02-12 20:01:29,684 - INFO - Computing technical indicators
+2025-02-12 20:01:29,715 - INFO - Technical indicators computed in 0.031 seconds
+2025-02-12 20:01:29,716 - INFO - Fitting market regimes
+2025-02-12 20:01:29,717 - INFO - Starting HMM model fitting
+2025-02-12 20:01:29,892 - INFO - HMM fitting completed in 0.175 seconds
+2025-02-12 20:01:29,893 - INFO - Model score: -3583.317
+2025-02-12 20:01:29,894 - INFO - Regime 0: 1026 samples (62.26%)
+2025-02-12 20:01:29,894 - INFO - Regime 1: 622 samples (37.74%)
+2025-02-12 20:01:29,895 - INFO - Market regimes fitted in 0.178 seconds
+2025-02-12 20:01:29,895 - INFO - Environment initialization completed in 0.232 seconds
+2025-02-12 20:01:29,896 - INFO - Data shape: (1648, 22), Date range: 2014-10-14 to 2022-07-07
+2025-02-12 20:01:31,551 - INFO - Resetting environment
+2025-02-12 20:01:35,621 - INFO - Resetting environment
+2025-02-12 20:01:39,499 - INFO - Resetting environment
+2025-02-12 20:01:43,390 - INFO - Resetting environment
+2025-02-12 20:01:47,860 - INFO - Resetting environment
+2025-02-12 20:01:52,246 - INFO - Resetting environment
+2025-02-12 20:01:56,636 - INFO - Resetting environment
+2025-02-12 20:02:01,085 - INFO - Resetting environment
+2025-02-12 20:02:05,515 - INFO - Resetting environment
+2025-02-12 20:02:10,056 - INFO - Resetting environment
+2025-02-12 20:02:14,583 - INFO - Resetting environment
+2025-02-12 20:02:19,065 - INFO - Resetting environment
+2025-02-12 20:02:23,591 - INFO - Resetting environment
+2025-02-12 20:02:28,034 - INFO - Resetting environment
+2025-02-12 20:02:32,512 - INFO - Resetting environment
+2025-02-12 20:02:36,947 - INFO - Resetting environment
+2025-02-12 20:02:41,468 - INFO - Resetting environment
+2025-02-12 20:02:46,103 - INFO - Resetting environment
+2025-02-12 20:02:50,641 - INFO - Resetting environment
+2025-02-12 20:02:55,210 - INFO - Resetting environment
+2025-02-12 20:02:59,847 - INFO - Resetting environment
+2025-02-12 20:03:04,375 - INFO - Resetting environment
+2025-02-12 20:03:08,850 - INFO - Resetting environment
+2025-02-12 20:03:13,147 - INFO - Resetting environment
+2025-02-12 20:03:17,652 - INFO - Resetting environment
+2025-02-12 20:03:21,993 - INFO - Resetting environment
+2025-02-12 20:03:26,340 - INFO - Resetting environment
+2025-02-12 20:03:30,784 - INFO - Resetting environment
+2025-02-12 20:03:35,265 - INFO - Resetting environment
+2025-02-12 20:03:39,778 - INFO - Resetting environment
+2025-02-12 20:03:44,192 - INFO - Resetting environment
+2025-02-12 20:03:48,614 - INFO - Resetting environment
+2025-02-12 20:03:53,238 - INFO - Resetting environment
+2025-02-12 20:03:57,655 - INFO - Resetting environment
+2025-02-12 20:04:02,098 - INFO - Resetting environment
+2025-02-12 20:04:06,504 - INFO - Resetting environment
+2025-02-12 20:04:11,046 - INFO - Resetting environment
+2025-02-12 20:04:15,511 - INFO - Resetting environment
+2025-02-12 20:04:19,819 - INFO - Resetting environment
+2025-02-12 20:04:24,294 - INFO - Resetting environment
+2025-02-12 20:04:28,781 - INFO - Resetting environment
+2025-02-12 20:04:33,392 - INFO - Resetting environment

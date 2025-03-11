@@ -1,0 +1,11 @@
+{
+    "Total_Trades": 449,
+    "Buy_Trades": 445,
+    "Sell_Trades": 4,
+    "Hold_Trades": 719,
+    "Total_Return": 41.736500000000085,
+    "Stock_Return": 20.562827225130892,
+    "Portfolio_Volatility": 31.90662493455914,
+    "Stock_Volatility": 44.743342284354426,
+    "Sharpe_Ratio": 0.3332983881738203
+}

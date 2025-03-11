@@ -1,0 +1,167 @@
+2025-02-12 19:34:14,906 - INFO - Initializing StockTradingEnv
+2025-02-12 19:34:14,907 - INFO - Starting data preprocessing with 1648 rows
+2025-02-12 19:34:14,921 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-02-12 19:34:14,922 - INFO - Converting dates and sorting data
+2025-02-12 19:34:14,929 - INFO - Initializing market regime detector
+2025-02-12 19:34:14,929 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-02-12 19:34:14,930 - INFO - Computing technical indicators
+2025-02-12 19:34:14,964 - INFO - Technical indicators computed in 0.033 seconds
+2025-02-12 19:34:14,964 - INFO - Fitting market regimes
+2025-02-12 19:34:14,965 - INFO - Starting HMM model fitting
+2025-02-12 19:34:15,151 - INFO - HMM fitting completed in 0.186 seconds
+2025-02-12 19:34:15,152 - INFO - Model score: -3583.317
+2025-02-12 19:34:15,152 - INFO - Regime 0: 1026 samples (62.26%)
+2025-02-12 19:34:15,153 - INFO - Regime 1: 622 samples (37.74%)
+2025-02-12 19:34:15,153 - INFO - Market regimes fitted in 0.189 seconds
+2025-02-12 19:34:15,154 - INFO - Environment initialization completed in 0.247 seconds
+2025-02-12 19:34:15,154 - INFO - Data shape: (1648, 22), Date range: 2014-10-14 to 2022-07-07
+2025-02-12 19:34:15,155 - INFO - Initializing StockTradingEnv
+2025-02-12 19:34:15,155 - INFO - Starting data preprocessing with 413 rows
+2025-02-12 19:34:15,160 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-02-12 19:34:15,161 - INFO - Converting dates and sorting data
+2025-02-12 19:34:15,164 - INFO - Initializing market regime detector
+2025-02-12 19:34:15,164 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-02-12 19:34:15,164 - INFO - Computing technical indicators
+2025-02-12 19:34:15,180 - INFO - Technical indicators computed in 0.015 seconds
+2025-02-12 19:34:15,180 - INFO - Fitting market regimes
+2025-02-12 19:34:15,180 - INFO - Starting HMM model fitting
+2025-02-12 19:34:15,247 - INFO - HMM fitting completed in 0.066 seconds
+2025-02-12 19:34:15,248 - INFO - Model score: -959.214
+2025-02-12 19:34:15,248 - INFO - Regime 0: 273 samples (66.10%)
+2025-02-12 19:34:15,248 - INFO - Regime 1: 140 samples (33.90%)
+2025-02-12 19:34:15,249 - INFO - Market regimes fitted in 0.069 seconds
+2025-02-12 19:34:15,249 - INFO - Environment initialization completed in 0.095 seconds
+2025-02-12 19:34:15,250 - INFO - Data shape: (413, 22), Date range: 2022-07-08 to 2024-04-18
+2025-02-12 19:34:17,215 - INFO - Resetting environment
+2025-02-12 19:34:19,748 - INFO - Resetting environment
+2025-02-12 19:34:21,185 - INFO - Episode finished. Final portfolio value: $6668.17 (-33.32% return)
+2025-02-12 19:34:21,186 - INFO - Resetting environment
+2025-02-12 19:34:22,573 - INFO - Episode finished. Final portfolio value: $4463.62 (-55.36% return)
+2025-02-12 19:34:22,575 - INFO - Resetting environment
+2025-02-12 19:34:24,026 - INFO - Episode finished. Final portfolio value: $8801.75 (-11.98% return)
+2025-02-12 19:34:24,027 - INFO - Resetting environment
+2025-02-12 19:34:25,475 - INFO - Episode finished. Final portfolio value: $9621.22 (-3.79% return)
+2025-02-12 19:34:25,477 - INFO - Resetting environment
+2025-02-12 19:34:26,956 - INFO - Episode finished. Final portfolio value: $8772.50 (-12.27% return)
+2025-02-12 19:34:26,963 - INFO - Resetting environment
+2025-02-12 19:34:29,399 - INFO - Resetting environment
+2025-02-12 19:34:32,011 - INFO - Resetting environment
+2025-02-12 19:34:34,487 - INFO - Resetting environment
+2025-02-12 19:34:36,955 - INFO - Resetting environment
+2025-02-12 19:34:39,572 - INFO - Resetting environment
+2025-02-12 19:34:42,208 - INFO - Resetting environment
+2025-02-12 19:34:44,828 - INFO - Resetting environment
+2025-02-12 19:34:47,383 - INFO - Resetting environment
+2025-02-12 19:34:49,943 - INFO - Resetting environment
+2025-02-12 19:34:52,536 - INFO - Resetting environment
+2025-02-12 19:34:54,213 - INFO - Episode finished. Final portfolio value: $6130.51 (-38.69% return)
+2025-02-12 19:34:54,215 - INFO - Resetting environment
+2025-02-12 19:34:55,890 - INFO - Episode finished. Final portfolio value: $6662.10 (-33.38% return)
+2025-02-12 19:34:55,892 - INFO - Resetting environment
+2025-02-12 19:34:57,516 - INFO - Episode finished. Final portfolio value: $9712.22 (-2.88% return)
+2025-02-12 19:34:57,517 - INFO - Resetting environment
+2025-02-12 19:34:59,225 - INFO - Episode finished. Final portfolio value: $8347.92 (-16.52% return)
+2025-02-12 19:34:59,227 - INFO - Resetting environment
+2025-02-12 19:35:00,876 - INFO - Episode finished. Final portfolio value: $8040.89 (-19.59% return)
+2025-02-12 19:35:00,885 - INFO - Resetting environment
+2025-02-12 19:35:03,385 - INFO - Resetting environment
+2025-02-12 19:35:05,830 - INFO - Resetting environment
+2025-02-12 19:35:08,271 - INFO - Resetting environment
+2025-02-12 19:35:10,736 - INFO - Resetting environment
+2025-02-12 19:35:13,247 - INFO - Resetting environment
+2025-02-12 19:35:15,718 - INFO - Resetting environment
+2025-02-12 19:35:18,159 - INFO - Resetting environment
+2025-02-12 19:35:20,673 - INFO - Resetting environment
+2025-02-12 19:35:23,126 - INFO - Resetting environment
+2025-02-12 19:35:25,805 - INFO - Resetting environment
+2025-02-12 19:35:27,479 - INFO - Episode finished. Final portfolio value: $7887.99 (-21.12% return)
+2025-02-12 19:35:27,481 - INFO - Resetting environment
+2025-02-12 19:35:29,167 - INFO - Episode finished. Final portfolio value: $10514.02 (5.14% return)
+2025-02-12 19:35:29,168 - INFO - Resetting environment
+2025-02-12 19:35:30,920 - INFO - Episode finished. Final portfolio value: $9352.02 (-6.48% return)
+2025-02-12 19:35:30,922 - INFO - Resetting environment
+2025-02-12 19:35:32,625 - INFO - Episode finished. Final portfolio value: $6122.82 (-38.77% return)
+2025-02-12 19:35:32,626 - INFO - Resetting environment
+2025-02-12 19:35:34,320 - INFO - Episode finished. Final portfolio value: $12081.98 (20.82% return)
+2025-02-12 19:35:34,323 - INFO - Resetting environment
+2025-02-12 19:35:36,942 - INFO - Resetting environment
+2025-02-12 19:35:39,553 - INFO - Resetting environment
+2025-02-12 19:35:42,153 - INFO - Resetting environment
+2025-02-12 19:35:44,774 - INFO - Resetting environment
+2025-02-12 19:35:47,295 - INFO - Resetting environment
+2025-02-12 19:35:49,773 - INFO - Resetting environment
+2025-02-12 19:35:52,334 - INFO - Resetting environment
+2025-02-12 19:35:54,790 - INFO - Resetting environment
+2025-02-12 19:35:57,351 - INFO - Resetting environment
+2025-02-12 19:35:59,895 - INFO - Resetting environment
+2025-02-12 19:36:01,602 - INFO - Episode finished. Final portfolio value: $7442.25 (-25.58% return)
+2025-02-12 19:36:01,603 - INFO - Resetting environment
+2025-02-12 19:36:03,281 - INFO - Episode finished. Final portfolio value: $6495.06 (-35.05% return)
+2025-02-12 19:36:03,283 - INFO - Resetting environment
+2025-02-12 19:36:04,908 - INFO - Episode finished. Final portfolio value: $8150.18 (-18.50% return)
+2025-02-12 19:36:04,910 - INFO - Resetting environment
+2025-02-12 19:36:06,576 - INFO - Episode finished. Final portfolio value: $5880.07 (-41.20% return)
+2025-02-12 19:36:06,578 - INFO - Resetting environment
+2025-02-12 19:36:08,215 - INFO - Episode finished. Final portfolio value: $10895.82 (8.96% return)
+2025-02-12 19:36:08,218 - INFO - Resetting environment
+2025-02-12 19:36:10,705 - INFO - Resetting environment
+2025-02-12 19:36:13,261 - INFO - Resetting environment
+2025-02-12 19:36:15,902 - INFO - Resetting environment
+2025-02-12 19:36:18,532 - INFO - Resetting environment
+2025-02-12 19:36:21,149 - INFO - Resetting environment
+2025-02-12 19:36:23,706 - INFO - Resetting environment
+2025-02-12 19:36:26,303 - INFO - Resetting environment
+2025-02-12 19:36:28,909 - INFO - Resetting environment
+2025-02-12 19:36:31,542 - INFO - Resetting environment
+2025-02-12 19:36:34,048 - INFO - Resetting environment
+2025-02-12 19:36:35,674 - INFO - Episode finished. Final portfolio value: $9659.93 (-3.40% return)
+2025-02-12 19:36:35,676 - INFO - Resetting environment
+2025-02-12 19:36:37,330 - INFO - Episode finished. Final portfolio value: $6874.27 (-31.26% return)
+2025-02-12 19:36:37,331 - INFO - Resetting environment
+2025-02-12 19:36:38,997 - INFO - Episode finished. Final portfolio value: $8537.24 (-14.63% return)
+2025-02-12 19:36:38,999 - INFO - Resetting environment
+2025-02-12 19:36:40,670 - INFO - Episode finished. Final portfolio value: $10828.83 (8.29% return)
+2025-02-12 19:36:40,671 - INFO - Resetting environment
+2025-02-12 19:36:42,388 - INFO - Episode finished. Final portfolio value: $6274.08 (-37.26% return)
+2025-02-12 19:36:42,391 - INFO - Resetting environment
+2025-02-12 19:36:44,851 - INFO - Resetting environment
+2025-02-12 19:36:47,369 - INFO - Resetting environment
+2025-02-12 19:36:49,840 - INFO - Resetting environment
+2025-02-12 19:36:52,328 - INFO - Resetting environment
+2025-02-12 19:36:54,836 - INFO - Resetting environment
+2025-02-12 19:36:57,361 - INFO - Resetting environment
+2025-02-12 19:36:59,864 - INFO - Resetting environment
+2025-02-12 19:37:02,340 - INFO - Resetting environment
+2025-02-12 19:37:04,844 - INFO - Resetting environment
+2025-02-12 19:37:07,374 - INFO - Resetting environment
+2025-02-12 19:37:09,066 - INFO - Episode finished. Final portfolio value: $8797.41 (-12.03% return)
+2025-02-12 19:37:09,067 - INFO - Resetting environment
+2025-02-12 19:37:10,742 - INFO - Episode finished. Final portfolio value: $5595.31 (-44.05% return)
+2025-02-12 19:37:10,743 - INFO - Resetting environment
+2025-02-12 19:37:12,375 - INFO - Episode finished. Final portfolio value: $9806.64 (-1.93% return)
+2025-02-12 19:37:12,377 - INFO - Resetting environment
+2025-02-12 19:37:14,041 - INFO - Episode finished. Final portfolio value: $9900.00 (-1.00% return)
+2025-02-12 19:37:14,042 - INFO - Resetting environment
+2025-02-12 19:37:15,692 - INFO - Episode finished. Final portfolio value: $6461.41 (-35.39% return)
+2025-02-12 19:37:15,695 - INFO - Resetting environment
+2025-02-12 19:37:18,118 - INFO - Resetting environment
+2025-02-12 19:37:20,606 - INFO - Resetting environment
+2025-02-12 19:37:23,059 - INFO - Resetting environment
+2025-02-12 19:37:25,541 - INFO - Resetting environment
+2025-02-12 19:37:28,126 - INFO - Resetting environment
+2025-02-12 19:37:30,589 - INFO - Resetting environment
+2025-02-12 19:37:33,078 - INFO - Resetting environment
+2025-02-12 19:37:35,625 - INFO - Resetting environment
+2025-02-12 19:37:38,045 - INFO - Resetting environment
+2025-02-12 19:37:40,532 - INFO - Resetting environment
+2025-02-12 19:37:42,194 - INFO - Episode finished. Final portfolio value: $5887.96 (-41.12% return)
+2025-02-12 19:37:42,195 - INFO - Resetting environment
+2025-02-12 19:37:43,857 - INFO - Episode finished. Final portfolio value: $8394.74 (-16.05% return)
+2025-02-12 19:37:43,858 - INFO - Resetting environment
+2025-02-12 19:37:45,498 - INFO - Episode finished. Final portfolio value: $10818.53 (8.19% return)
+2025-02-12 19:37:45,500 - INFO - Resetting environment
+2025-02-12 19:37:47,185 - INFO - Episode finished. Final portfolio value: $8312.26 (-16.88% return)
+2025-02-12 19:37:47,186 - INFO - Resetting environment
+2025-02-12 19:37:48,949 - INFO - Episode finished. Final portfolio value: $9177.96 (-8.22% return)
+2025-02-12 19:37:48,952 - INFO - Resetting environment
+2025-02-12 19:37:51,399 - INFO - Resetting environment

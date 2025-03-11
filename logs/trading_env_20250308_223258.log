@@ -1,0 +1,90 @@
+2025-03-08 22:32:58,156 - INFO - Initializing StockTradingEnv
+2025-03-08 22:32:58,156 - INFO - Starting data preprocessing with 1980 rows
+2025-03-08 22:32:58,158 - INFO - Dropped columns: {'S.N.'}
+2025-03-08 22:32:58,173 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-08 22:32:58,173 - INFO - Converting dates and sorting data
+2025-03-08 22:32:58,181 - INFO - Initializing market regime detector
+2025-03-08 22:32:58,181 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-08 22:32:58,181 - INFO - Computing technical indicators
+2025-03-08 22:32:58,226 - INFO - Technical indicators computed in 0.045 seconds
+2025-03-08 22:32:58,227 - INFO - Fitting market regimes
+2025-03-08 22:32:58,227 - INFO - Starting HMM model fitting
+2025-03-08 22:32:58,361 - INFO - HMM fitting completed in 0.134 seconds
+2025-03-08 22:32:58,362 - INFO - Model score: -4157.113
+2025-03-08 22:32:58,363 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-08 22:32:58,363 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-08 22:32:58,364 - INFO - Market regimes fitted in 0.137 seconds
+2025-03-08 22:32:58,364 - INFO - Environment initialization completed in 0.208 seconds
+2025-03-08 22:32:58,365 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-08 22:32:59,678 - INFO - Initializing StockTradingEnv
+2025-03-08 22:32:59,679 - INFO - Starting data preprocessing with 1980 rows
+2025-03-08 22:32:59,681 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-08 22:32:59,681 - INFO - Converting dates and sorting data
+2025-03-08 22:32:59,685 - INFO - Initializing market regime detector
+2025-03-08 22:32:59,685 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-08 22:32:59,685 - INFO - Computing technical indicators
+2025-03-08 22:32:59,732 - INFO - Technical indicators computed in 0.046 seconds
+2025-03-08 22:32:59,732 - INFO - Fitting market regimes
+2025-03-08 22:32:59,732 - INFO - Starting HMM model fitting
+2025-03-08 22:32:59,850 - INFO - HMM fitting completed in 0.118 seconds
+2025-03-08 22:32:59,851 - INFO - Model score: -4157.113
+2025-03-08 22:32:59,851 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-08 22:32:59,851 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-08 22:32:59,851 - INFO - Market regimes fitted in 0.119 seconds
+2025-03-08 22:32:59,852 - INFO - Environment initialization completed in 0.173 seconds
+2025-03-08 22:32:59,852 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-08 22:32:59,853 - INFO - Initializing StockTradingEnv
+2025-03-08 22:32:59,853 - INFO - Starting data preprocessing with 1980 rows
+2025-03-08 22:32:59,856 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-08 22:32:59,856 - INFO - Converting dates and sorting data
+2025-03-08 22:32:59,861 - INFO - Initializing market regime detector
+2025-03-08 22:32:59,862 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-08 22:32:59,863 - INFO - Computing technical indicators
+2025-03-08 22:32:59,921 - INFO - Technical indicators computed in 0.058 seconds
+2025-03-08 22:32:59,921 - INFO - Fitting market regimes
+2025-03-08 22:32:59,921 - INFO - Starting HMM model fitting
+2025-03-08 22:33:00,058 - INFO - HMM fitting completed in 0.137 seconds
+2025-03-08 22:33:00,060 - INFO - Model score: -4157.113
+2025-03-08 22:33:00,060 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-08 22:33:00,060 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-08 22:33:00,060 - INFO - Market regimes fitted in 0.139 seconds
+2025-03-08 22:33:00,061 - INFO - Environment initialization completed in 0.208 seconds
+2025-03-08 22:33:00,061 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-08 22:33:00,062 - INFO - Initializing StockTradingEnv
+2025-03-08 22:33:00,062 - INFO - Starting data preprocessing with 1980 rows
+2025-03-08 22:33:00,065 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-08 22:33:00,065 - INFO - Converting dates and sorting data
+2025-03-08 22:33:00,068 - INFO - Initializing market regime detector
+2025-03-08 22:33:00,068 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-08 22:33:00,069 - INFO - Computing technical indicators
+2025-03-08 22:33:00,116 - INFO - Technical indicators computed in 0.047 seconds
+2025-03-08 22:33:00,116 - INFO - Fitting market regimes
+2025-03-08 22:33:00,116 - INFO - Starting HMM model fitting
+2025-03-08 22:33:00,240 - INFO - HMM fitting completed in 0.124 seconds
+2025-03-08 22:33:00,241 - INFO - Model score: -4157.113
+2025-03-08 22:33:00,241 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-08 22:33:00,241 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-08 22:33:00,241 - INFO - Market regimes fitted in 0.125 seconds
+2025-03-08 22:33:00,242 - INFO - Environment initialization completed in 0.180 seconds
+2025-03-08 22:33:00,242 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-08 22:33:00,243 - INFO - Initializing StockTradingEnv
+2025-03-08 22:33:00,243 - INFO - Starting data preprocessing with 1980 rows
+2025-03-08 22:33:00,244 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-08 22:33:00,244 - INFO - Converting dates and sorting data
+2025-03-08 22:33:00,252 - INFO - Initializing market regime detector
+2025-03-08 22:33:00,252 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-08 22:33:00,252 - INFO - Computing technical indicators
+2025-03-08 22:33:00,302 - INFO - Technical indicators computed in 0.050 seconds
+2025-03-08 22:33:00,302 - INFO - Fitting market regimes
+2025-03-08 22:33:00,302 - INFO - Starting HMM model fitting
+2025-03-08 22:33:00,414 - INFO - HMM fitting completed in 0.112 seconds
+2025-03-08 22:33:00,415 - INFO - Model score: -4157.113
+2025-03-08 22:33:00,415 - INFO - Regime 0: 937 samples (47.32%)
+2025-03-08 22:33:00,415 - INFO - Regime 1: 1043 samples (52.68%)
+2025-03-08 22:33:00,416 - INFO - Market regimes fitted in 0.113 seconds
+2025-03-08 22:33:00,416 - INFO - Environment initialization completed in 0.173 seconds
+2025-03-08 22:33:00,416 - INFO - Data shape: (1980, 21), Date range: 2011-04-06 to 2022-04-04
+2025-03-08 22:33:00,417 - INFO - Resetting environment
+2025-03-08 22:33:00,418 - INFO - Resetting environment
+2025-03-08 22:33:00,419 - INFO - Resetting environment
+2025-03-08 22:33:00,421 - INFO - Resetting environment
