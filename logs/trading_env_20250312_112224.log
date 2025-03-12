@@ -1,0 +1,18 @@
+2025-03-12 11:22:26,128 - INFO - Initializing StockTradingEnv
+2025-03-12 11:22:26,128 - INFO - Starting data preprocessing with 2012 rows
+2025-03-12 11:22:26,129 - INFO - Numeric conversion completed for columns: ['Open', 'High', 'Low', 'Ltp', 'Qty', 'Turnover', '% Change']
+2025-03-12 11:22:26,129 - INFO - Converting dates and sorting data
+2025-03-12 11:22:26,131 - INFO - Initializing market regime detector
+2025-03-12 11:22:26,131 - INFO - Initializing MarketRegimeDetector with 2 states
+2025-03-12 11:22:26,131 - INFO - Computing technical indicators
+2025-03-12 11:22:26,155 - INFO - Technical indicators computed in 0.024 seconds
+2025-03-12 11:22:26,155 - INFO - Fitting market regimes
+2025-03-12 11:22:26,155 - INFO - Starting HMM model fitting
+2025-03-12 11:22:26,312 - INFO - HMM fitting completed in 0.157 seconds
+2025-03-12 11:22:26,313 - INFO - Model score: -4571.916
+2025-03-12 11:22:26,313 - INFO - Regime 0: 871 samples (43.29%)
+2025-03-12 11:22:26,313 - INFO - Regime 1: 1141 samples (56.71%)
+2025-03-12 11:22:26,314 - INFO - Market regimes fitted in 0.159 seconds
+2025-03-12 11:22:26,314 - INFO - Environment initialization completed in 0.187 seconds
+2025-03-12 11:22:26,316 - INFO - Data shape: (2012, 22), Date range: 2015-01-26 to 2024-04-18
+2025-03-12 11:22:26,316 - INFO - Resetting environment

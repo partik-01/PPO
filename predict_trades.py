@@ -9,7 +9,8 @@ import torch.serialization
 
 class TradingPredictor:
     def __init__(self, model_path, state_dim, action_dim):
-        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+        print(f"Using device: {self.device}")
         
         # Initialize the agent
         self.agent = PPO(
@@ -21,8 +22,9 @@ class TradingPredictor:
         # Add numpy types to safe globals for PyTorch 2.6+
         import numpy
         torch.serialization.add_safe_globals([
-            numpy.ndarray,
-            numpy.dtype,
+            'numpy._core.multiarray.scalar',
+            'numpy.ndarray',
+            'numpy.dtype',
             numpy.float32,
             numpy.float64,
             numpy.int64,
@@ -31,40 +33,52 @@ class TradingPredictor:
         
         # Load the trained model
         try:
-            checkpoint = torch.load(model_path, map_location=self.device, weights_only=True)
-        except Exception as e:
-            print(f"Warning: Failed to load with weights_only=True, attempting without: {str(e)}")
+            print(f"Loading model from {model_path}")
             checkpoint = torch.load(model_path, map_location=self.device, weights_only=False)
+            self.agent.actor_critic.load_state_dict(checkpoint['model_state_dict'])
             
-        self.agent.actor_critic.load_state_dict(checkpoint['model_state_dict'])
-        self.agent.actor_critic.eval()
-        
-        # Load normalization parameters if they exist
-        if 'running_mean' in checkpoint and 'running_std' in checkpoint:
-            self.agent.running_mean = checkpoint['running_mean']
-            self.agent.running_std = checkpoint['running_std']
+            # Load reward scaler parameters
+            if 'reward_scaler_mean' in checkpoint and 'reward_scaler_std' in checkpoint:
+                self.agent.reward_scaler.mean = checkpoint['reward_scaler_mean']
+                self.agent.reward_scaler.std = checkpoint['reward_scaler_std']
+                print("Loaded reward scaler parameters")
+            else:
+                print("Warning: No reward scaler parameters found in checkpoint")
+            
+            self.agent.actor_critic.eval()
+            print("Model loaded successfully")
+        except Exception as e:
+            print(f"Error loading model: {str(e)}")
+            raise
     
     def predict_action(self, state):
         """
         Predict the next action given the current state
         Returns: action, action_probability, predicted_value
         """
-        # Convert state to numpy array if it's not already
-        if not isinstance(state, np.ndarray):
-            state = np.array(state, dtype=np.float32)
+        try:
+            # Convert state to numpy array if it's not already
+            if not isinstance(state, np.ndarray):
+                state = np.array(state, dtype=np.float32)
             
-        # Normalize state
-        state = self.agent.normalize_observation(state)
-        state = torch.FloatTensor(state).unsqueeze(0).to(self.device)
-        
-        with torch.no_grad():
-            action_probs, value = self.agent.actor_critic(state)
+            # Scale the state using reward_scaler instead of normalize_observation
+            if hasattr(self.agent, 'reward_scaler'):
+                state = (state - self.agent.reward_scaler.mean) / (self.agent.reward_scaler.std + 1e-8)
             
-            # Get the action with highest probability
-            action = torch.argmax(action_probs).item()
-            probability = action_probs[0][action].item()
+            # Convert to tensor and add batch dimension
+            state = torch.FloatTensor(state).unsqueeze(0).to(self.device)
             
-        return action, probability, value.item()
+            with torch.no_grad():
+                action_probs, value = self.agent.actor_critic(state)
+                
+                # Get the action with highest probability
+                action = torch.argmax(action_probs).item()
+                probability = action_probs[0][action].item()
+                
+            return action, probability, value.item()
+        except Exception as e:
+            print(f"Error in predict_action: {str(e)}")
+            raise
 
 def calculate_technical_indicators(df):
     """Calculate all required technical indicators"""
@@ -181,23 +195,24 @@ def interpret_action(action, probability, value):
 
 def main():
     # Configuration
-    MODEL_PATH = "best_model_ppo1.pth"  # Path to your saved model
-    DATA_PATH = "LLBS.csv"        # Path to your latest market data
-    STATE_DIM = 16               # Updated to match environment's observation space
-    ACTION_DIM = 3               # Number of possible actions (0: Hold, 1: Buy, 2: Sell)
+    MODEL_PATH = "best_model_ppo1LLBS.pth"  # Make sure this matches your model file name
+    DATA_PATH = "LLBS.csv"
+    STATE_DIM = 16
+    ACTION_DIM = 3
     
     try:
         # Load predictor
-        print("Loading model...")
+        print("\nInitializing Trading Predictor...")
         predictor = TradingPredictor(MODEL_PATH, STATE_DIM, ACTION_DIM)
         
         # Load and preprocess latest data
-        print("Loading market data...")
+        print("\nLoading and preprocessing market data...")
         env, df = load_and_preprocess_data(DATA_PATH)
         
-        # Reset the environment to initialize all necessary variables
-        print("Resetting environment...")
-        initial_observation = env.reset()  # This will properly initialize current_step
+        # Reset the environment
+        print("\nResetting environment...")
+        initial_observation = env.reset()
+        print(f"Initial observation shape: {initial_observation.shape}")
         
         # Get prediction
         print("\nPredicting next action...")
@@ -209,22 +224,21 @@ def main():
         # Print results
         print("\nTrading Recommendation:")
         print("-" * 50)
-        print(f"Date: {df['Date'].iloc[-1]}")
-        print(f"Current Price: {df['Ltp'].iloc[-1]}")
+        print(f"Date: {df['Date'].iloc[-1].strftime('%Y-%m-%d')}")
+        print(f"Current Price: {df['Ltp'].iloc[-1]:.2f}")
         print(f"Action: {result['recommendation']}")
         print(f"Confidence: {result['confidence']}")
         print(f"Predicted Value: {result['predicted_value']}")
         print("-" * 50)
         
-        # Print additional market data
+        # Print recent market data
         print("\nRecent Market Data:")
-        print(df.tail()[['Date', 'Open', 'High', 'Low', 'Ltp', '% Change']].to_string())
-        
-        # Print environment state
-        env.render()
+        recent_data = df.tail()[['Date', 'Open', 'High', 'Low', 'Ltp', '% Change']]
+        recent_data['Date'] = recent_data['Date'].dt.strftime('%Y-%m-%d')
+        print(recent_data.to_string())
         
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"\nAn error occurred: {str(e)}")
         import traceback
         traceback.print_exc()
 
